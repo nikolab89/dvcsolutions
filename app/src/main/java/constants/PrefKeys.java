@@ -5,10 +5,7 @@ public enum PrefKeys {
 
     // define constants for shared preferences
     LOGIN_STATE(false);
-//    TEST_OBJECT(News.class),
-//    TEST_LIST(News[].class);
-//
-//
+
 
 
     // constructors and getters

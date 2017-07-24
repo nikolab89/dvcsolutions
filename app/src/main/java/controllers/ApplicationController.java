@@ -8,27 +8,6 @@ import com.android.volley.RequestQueue;
 import com.android.volley.toolbox.Volley;
 
 
-//@ReportsCrashes(
-//        //formUri = "https://{myusername}.cloudant.com/acra-{myapp}/_design/acra-storage/_update/report",
-//        //formUri = "http://www.bihmapa.com/Android/test/fr/acra_child.php",
-//        formUri = "https://collector.tracepot.com/388ec5d4",
-//        reportType = HttpSender.Type.JSON,
-//        httpMethod = HttpSender.Method.POST,
-//        formUriBasicAuthLogin = "GENERATED_USERNAME_WITH_WRITE_PERMISSIONS",
-//        formUriBasicAuthPassword = "GENERATED_PASSWORD",
-//        //formKey = "", // This is required for backward compatibility but not used
-//        customReportContent = {
-//                ReportField.APP_VERSION_CODE,
-//                ReportField.APP_VERSION_NAME,
-//                ReportField.ANDROID_VERSION,
-//                ReportField.PACKAGE_NAME,
-//                ReportField.REPORT_ID,
-//                ReportField.BUILD,
-//                ReportField.STACK_TRACE
-//        },
-//        mode = ReportingInteractionMode.TOAST,
-//        resToastText = R.string.t_crash
-//)
 public class ApplicationController extends Application {
 
     private RequestQueue mRequestQueue;

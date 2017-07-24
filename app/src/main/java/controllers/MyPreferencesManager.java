@@ -21,7 +21,7 @@ public class MyPreferencesManager<T> {
 
     private static final String TAG = "MyPreferencesManager";
     private Context context;
-    private static final String PREF_NAME = "ordex_p_pre#7ruyd73fwh";
+    private static final String PREF_NAME = "dvc_pref#7ruyd73fwh";
 
     private SharedPreferences sharedPreferences;
     private SharedPreferences.Editor editor;
