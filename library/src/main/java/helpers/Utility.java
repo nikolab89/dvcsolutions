@@ -9,7 +9,7 @@ import controllers.MyPreferencesManager;
  */
 
 public class Utility {
-
+//test
 
    public static MyPreferencesManager PrefManager = ApplicationController.getInstance().getMyPreferencesManager();
 }
